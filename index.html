@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-ru="Clean Wings - Профессиональный клининг салонов самолетов в Ташкенте" data-en="Clean Wings - Professional Aircraft Cabin Cleaning in Tashkent">Clean Wings - Профессиональный клининг салонов самолетов</title>
+    <meta name="description" data-ru="Профессиональный клининг салонов самолетов в Ташкенте. Соответствие авиационным стандартам, быстрое обслуживание 24/7. Обслуживаем авиакомпании и частные джеты." data-en="Professional aircraft cabin cleaning services in Tashkent. Aviation standards compliance, fast 24/7 service. Serving airlines and private jets." content="Профессиональный клининг салонов самолетов в Ташкенте. Соответствие авиационным стандартам, быстрое обслуживание 24/7.">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Clean Wings - Профессиональный клининг салонов самолетов">
+    <meta property="og:description" content="Профессиональный клининг салонов самолетов в Ташкенте. Соответствие авиационным стандартам, быстрое обслуживание 24/7.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="./images/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./logo.svg">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Clean Wings",
+      "description": "Professional aircraft cabin cleaning services in Tashkent",
+      "url": "https://cleanwings.uz",
+      "logo": "https://cleanwings.uz/logo png.png",
+      "image": "https://cleanwings.uz/images/hero-aircraft-interior.jpg",
+      "telephone": "+998 (XX) XXX-XX-XX",
+      "email": "info@cleanwings.uz",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Tashkent",
+        "addressCountry": "UZ"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "41.2995",
+        "longitude": "69.2401"
+      },
+      "openingHours": "Mo-Su 00:00-23:59",
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": "41.2995",
+          "longitude": "69.2401"
+        },
+        "geoRadius": "100"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Aircraft Cleaning Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Deep Cabin Cleaning",
+              "description": "Complete treatment of passenger seats, panels, windows and all cabin surfaces"
+            }
+          },
+          {
+            "@type": "Offer", 
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Sanitization & Disinfection",
+              "description": "Using aviation cleanliness standards and passenger safety protocols"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service", 
+              "name": "Cockpit Cleaning",
+              "description": "Delicate treatment of instrument panels and sensitive equipment"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Express Service",
+              "description": "Quick cleaning between flights to minimize aircraft downtime"
+            }
+          }
+        ]
+      },
+      "sameAs": []
+    }
+    </script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="./logo.svg" alt="Clean Wings" class="logo-img">
+                </div>
+                <nav class="nav">
+                    <a href="#about" class="nav-link" data-ru="О компании" data-en="About">О компании</a>
+                    <a href="#services" class="nav-link" data-ru="Услуги" data-en="Services">Услуги</a>
+                    <a href="#process" class="nav-link" data-ru="Процесс" data-en="Process">Процесс</a>
+                    <a href="#advantages" class="nav-link" data-ru="Стандарты" data-en="Standards">Стандарты</a>
+                    <a href="#contact" class="nav-link" data-ru="Контакты" data-en="Contacts">Контакты</a>
+                </nav>
+                <div class="header-controls">
+                    <div class="language-switcher">
+                        <button class="lang-btn active" data-lang="ru">RU</button>
+                        <button class="lang-btn" data-lang="en">EN</button>
+                    </div>
+                </div>
+                <button class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" id="themeToggle">
+        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+        <svg class="moon-icon" style="display: none;" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+    </button>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <img src="./images/pexels-brett-sayles-3226808.jpg" alt="Aircraft Interior" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge" data-ru="ПРОФЕССИОНАЛЬНЫЙ СЕРВИС" data-en="PROFESSIONAL SERVICE">ПРОФЕССИОНАЛЬНЫЙ СЕРВИС</div>
+                <h1 class="hero-title" data-ru="Клининг воздушных судов нового уровня" data-en="Aircraft Cleaning of a New Level">
+                    <span class="title-line">Клининг воздушных судов</span>
+                    <span class="title-highlight">нового уровня</span>
+                    <span class="title-line">в Ташкенте</span>
+                </h1>
+                <p class="hero-subtitle" data-ru="Мы предоставляем комплексные услуги профессионального клининга для авиационной индустрии. Наша команда специалистов обеспечивает безупречную чистоту и соответствие международным стандартам безопасности." data-en="We provide comprehensive professional cleaning services for the aviation industry. Our team of specialists ensures impeccable cleanliness and compliance with international safety standards.">Мы предоставляем комплексные услуги профессионального клининга для авиационной индустрии. Наша команда специалистов обеспечивает безупречную чистоту и соответствие международным стандартам безопасности.</p>
+                
+                <div class="hero-actions">
+                    <button class="cta-button primary" data-ru="Запросить коммерческое предложение" data-en="Request Commercial Offer">Запросить коммерческое предложение</button>
+                    <button class="cta-button secondary" data-ru="Узнать больше о наших услугах" data-en="Learn More About Our Services">Узнать больше о наших услугах</button>
+                </div>
+                
+                <div class="hero-scroll">
+                    <span data-ru="Прокрутите вниз" data-en="Scroll down">Прокрутите вниз</span>
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 13L12 18L17 13M7 6L12 11L17 6"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ru="О компании Clean Wings" data-en="About Clean Wings">О компании Clean Wings</h2>
+                <p class="section-subtitle" data-ru="Новый подход к профессиональному клинингу авиационной техники" data-en="A fresh approach to professional aviation cleaning">Новый подход к профессиональному клинингу авиационной техники</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p data-ru="Clean Wings — это новая специализированная компания по профессиональному клинингу салонов самолетов в Ташкенте. Мы применяем современные методы уборки и используем профессиональное оборудование для обеспечения высочайших стандартов чистоты." data-en="Clean Wings is a new specialized company for professional aircraft cabin cleaning in Tashkent. We apply modern cleaning methods and use professional equipment to ensure the highest standards of cleanliness.">Clean Wings — это новая специализированная компания по профессиональному клинингу салонов самолетов в Ташкенте. Мы применяем современные методы уборки и используем профессиональное оборудование для обеспечения высочайших стандартов чистоты.</p>
+                    <p data-ru="Наша специализация — качественная и быстрая уборка пассажирских салонов, кабин пилотов и служебных помещений воздушных судов с соблюдением всех международных требований авиационной индустрии." data-en="Our specialization is high-quality and fast cleaning of passenger cabins, cockpits, and aircraft service areas in compliance with all international aviation industry requirements.">Наша специализация — качественная и быстрая уборка пассажирских салонов, кабин пилотов и служебных помещений воздушных судов с соблюдением всех международных требований авиационной индустрии.</p>
+                </div>
+                <div class="about-image">
+                    <img src="./images/about-aircraft.jpg" alt="Clean aircraft interior" class="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ru="Наши услуги" data-en="Our Services">Наши услуги</h2>
+                <p class="section-subtitle" data-ru="Полный спектр клининговых услуг для авиационной техники" data-en="Complete range of cleaning services for aircraft">Полный спектр клининговых услуг для авиационной техники</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="./images/istockphoto-513229794-612x612.jpg" alt="Deep Cabin Cleaning" class="service-img">
+                    <div class="service-overlay"></div>
+                    <div class="service-content">
+                        <h3 class="service-title" data-ru="Глубокая чистка салонов" data-en="Deep Cabin Cleaning">Глубокая чистка салонов</h3>
+                        <p class="service-description" data-ru="Полная обработка пассажирских мест, панелей, окон и всех поверхностей салона" data-en="Complete treatment of passenger seats, panels, windows and all cabin surfaces">Полная обработка пассажирских мест, панелей, окон и всех поверхностей салона</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="./images/istockphoto-1277119521-612x612.jpg" alt="Sanitization & Disinfection" class="service-img">
+                    <div class="service-overlay"></div>
+                    <div class="service-content">
+                        <h3 class="service-title" data-ru="Санитизация и дезинфекция" data-en="Sanitization & Disinfection">Санитизация и дезинфекция</h3>
+                        <p class="service-description" data-ru="Использование авиационных стандартов чистоты и безопасности пассажиров" data-en="Using aviation cleanliness standards and passenger safety protocols">Использование авиационных стандартов чистоты и безопасности пассажиров</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="./images/istockphoto-826548220-2048x2048.jpg" alt="Cockpit Cleaning" class="service-img">
+                    <div class="service-overlay"></div>
+                    <div class="service-content">
+                        <h3 class="service-title" data-ru="Чистка кабины пилотов" data-en="Cockpit Cleaning">Чистка кабины пилотов</h3>
+                        <p class="service-description" data-ru="Деликатная обработка приборной панели и чувствительного оборудования" data-en="Delicate treatment of instrument panels and sensitive equipment">Деликатная обработка приборной панели и чувствительного оборудования</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="./images/istockphoto-1326132237-2048x2048.jpg" alt="Lavatory & Galley Cleaning" class="service-img">
+                    <div class="service-overlay"></div>
+                    <div class="service-content">
+                        <h3 class="service-title" data-ru="Обработка туалетов и галереи" data-en="Lavatory & Galley Cleaning">Обработка туалетов и галереи</h3>
+                        <p class="service-description" data-ru="Специальная чистка служебных зон с повышенными требованиями гигиены" data-en="Special cleaning of service areas with enhanced hygiene requirements">Специальная чистка служебных зон с повышенными требованиями гигиены</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="./images/istockphoto-1351254198-2048x2048.jpg" alt="Cargo Hold Cleaning" class="service-img">
+                    <div class="service-overlay"></div>
+                    <div class="service-content">
+                        <h3 class="service-title" data-ru="Уборка багажных отсеков" data-en="Cargo Hold Cleaning">Уборка багажных отсеков</h3>
+                        <p class="service-description" data-ru="Профессиональная уборка грузовых и багажных помещений при необходимости" data-en="Professional cleaning of cargo and baggage compartments when needed">Профессиональная уборка грузовых и багажных помещений при необходимости</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="./images/istockphoto-1365846648-2048x2048.jpg" alt="Express Service" class="service-img">
+                    <div class="service-overlay"></div>
+                    <div class="service-content">
+                        <h3 class="service-title" data-ru="Экспресс-обслуживание" data-en="Express Service">Экспресс-обслуживание</h3>
+                        <p class="service-description" data-ru="Быстрая уборка между рейсами для минимизации простоя воздушного судна" data-en="Quick cleaning between flights to minimize aircraft downtime">Быстрая уборка между рейсами для минимизации простоя воздушного судна</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advantages Section -->
+    <section id="advantages" class="advantages">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ru="Наши преимущества" data-en="Our Advantages">Наши преимущества</h2>
+                <p class="section-subtitle" data-ru="Почему выбирают Clean Wings для обслуживания своих воздушных судов" data-en="Why Clean Wings is chosen for aircraft maintenance">Почему выбирают Clean Wings для обслуживания своих воздушных судов</p>
+            </div>
+            <div class="advantages-slider">
+                <div class="advantages-container">
+                <div class="advantage-card">
+                    <img src="./images/istockphoto-1390076127-612x612.jpg" alt="Aviation Standards" class="advantage-img">
+                    <div class="advantage-overlay"></div>
+                    <div class="advantage-content">
+                        <h3 class="advantage-title" data-ru="Авиационные стандарты" data-en="Aviation Standards">Авиационные стандарты</h3>
+                        <p class="advantage-description" data-ru="Знание и следование международным требованиям авиационной индустрии" data-en="Knowledge and compliance with international aviation industry requirements">Знание и следование международным требованиям авиационной индустрии</p>
+                    </div>
+                </div>
+                <div class="advantage-card">
+                    <img src="./images/hero-aircraft-interior.jpg" alt="Speed of Execution" class="advantage-img">
+                    <div class="advantage-overlay"></div>
+                    <div class="advantage-content">
+                        <h3 class="advantage-title" data-ru="Быстрота выполнения" data-en="Speed of Execution">Быстрота выполнения</h3>
+                        <p class="advantage-description" data-ru="Минимизация времени простоя воздушного судна благодаря отлаженным процессам" data-en="Minimizing aircraft downtime through streamlined processes">Минимизация времени простоя воздушного судна благодаря отлаженным процессам</p>
+                    </div>
+                </div>
+                <div class="advantage-card">
+                    <img src="./images/istockphoto-1689175750-2048x2048.jpg" alt="Professional Equipment" class="advantage-img">
+                    <div class="advantage-overlay"></div>
+                    <div class="advantage-content">
+                        <h3 class="advantage-title" data-ru="Профессиональное оборудование" data-en="Professional Equipment">Профессиональное оборудование</h3>
+                        <p class="advantage-description" data-ru="Специализированные средства и инструменты для авиационного клининга" data-en="Specialized tools and equipment for aviation cleaning">Специализированные средства и инструменты для авиационного клининга</p>
+                    </div>
+                </div>
+                <div class="advantage-card">
+                    <img src="./images/istockphoto-513229976-2048x2048.jpg" alt="Experienced Team" class="advantage-img">
+                    <div class="advantage-overlay"></div>
+                    <div class="advantage-content">
+                        <h3 class="advantage-title" data-ru="Опытная команда" data-en="Experienced Team">Опытная команда</h3>
+                        <p class="advantage-description" data-ru="Обученный персонал с пониманием специфики авиационной индустрии" data-en="Trained personnel with understanding of aviation industry specifics">Обученный персонал с пониманием специфики авиационной индустрии</p>
+                    </div>
+                </div>
+                <div class="advantage-card">
+                    <img src="./images/istockphoto-513229880-612x612.jpg" alt="Flexible Schedule" class="advantage-img">
+                    <div class="advantage-overlay"></div>
+                    <div class="advantage-content">
+                        <h3 class="advantage-title" data-ru="Гибкий график" data-en="Flexible Schedule">Гибкий график</h3>
+                        <p class="advantage-description" data-ru="Работа 24/7 с подстройкой под расписание рейсов" data-en="24/7 operation adapted to flight schedules">Работа 24/7 с подстройкой под расписание рейсов</p>
+                    </div>
+                </div>
+                <div class="advantage-card">
+                    <img src="./images/istockphoto-178090717-2048x2048.jpg" alt="Competitive Prices" class="advantage-img">
+                    <div class="advantage-overlay"></div>
+                    <div class="advantage-content">
+                        <h3 class="advantage-title" data-ru="Конкурентные цены" data-en="Competitive Prices">Конкурентные цены</h3>
+                        <p class="advantage-description" data-ru="Выгодные условия для новых клиентов и долгосрочного сотрудничества" data-en="Favorable terms for new clients and long-term cooperation">Выгодные условия для новых клиентов и долгосрочного сотрудничества</p>
+                    </div>
+                </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn prev-btn" aria-label="Previous">‹</button>
+                    <button class="slider-btn next-btn" aria-label="Next">›</button>
+                </div>
+                <div class="slider-dots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ru="Отработанная методология клининга" data-en="Established Cleaning Methodology">Отработанная методология клининга</h2>
+                <p class="section-subtitle" data-ru="Каждый этап нашего процесса строго регламентирован и соответствует международным стандартам качества и безопасности" data-en="Each stage of our process is strictly regulated and meets international quality and safety standards">Каждый этап нашего процесса строго регламентирован и соответствует международным стандартам качества и безопасности</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <div class="step-time" data-ru="5 минут" data-en="5 minutes">5 минут</div>
+                        <h3 class="step-title" data-ru="Входной контроль и осмотр" data-en="Initial Control and Inspection">Входной контроль и осмотр</h3>
+                        <p class="step-description" data-ru="Детальная оценка состояния салона, фиксация особенностей, составление плана работ согласно авиационным потребностям" data-en="Detailed assessment of cabin condition, recording specifics, work plan compilation according to aviation needs">Детальная оценка состояния салона, фиксация особенностей, составление плана работ согласно авиационным потребностям</p>
+                        <ul class="step-features">
+                            <li data-ru="Проверка безопасности оборудования" data-en="Equipment safety check">Проверка безопасности оборудования</li>
+                            <li data-ru="Фотофиксация исходного состояния" data-en="Photo documentation of initial condition">Фотофиксация исходного состояния</li>
+                            <li data-ru="Идентификация проблемных зон" data-en="Problem areas identification">Идентификация проблемных зон</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <div class="step-time" data-ru="3 минуты" data-en="3 minutes">3 минуты</div>
+                        <h3 class="step-title" data-ru="Предварительная подготовка" data-en="Preliminary Preparation">Предварительная подготовка</h3>
+                        <p class="step-description" data-ru="Установка защитных покрытий, подготовка профессионального оборудования и химических средств для типа поверхности" data-en="Installation of protective coverings, preparation of professional equipment and chemicals for surface type">Установка защитных покрытий, подготовка профессионального оборудования и химических средств для типа поверхности</p>
+                        <ul class="step-features">
+                            <li data-ru="Защита чувствительного оборудования" data-en="Protection of sensitive equipment">Защита чувствительного оборудования</li>
+                            <li data-ru="Подготовка инструмента растворов" data-en="Preparation of tool solutions">Подготовка инструмента растворов</li>
+                            <li data-ru="Проверка вентиляционных систем" data-en="Ventilation systems check">Проверка вентиляционных систем</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <div class="step-time" data-ru="12 минут" data-en="12 minutes">12 минут</div>
+                        <h3 class="step-title" data-ru="Основная очистка" data-en="Main Cleaning">Основная очистка</h3>
+                        <p class="step-description" data-ru="Поэтапная обработка всех зон салона с применением профессиональных методов и соблюдением последовательности операций" data-en="Step-by-step treatment of all cabin areas using professional methods and following sequence of operations">Поэтапная обработка всех зон салона с применением профессиональных методов и соблюдением последовательности операций</p>
+                        <ul class="step-features">
+                            <li data-ru="Вакуумная обработка всех поверхностей" data-en="Vacuum treatment of all surfaces">Вакуумная обработка всех поверхностей</li>
+                            <li data-ru="Влажная очистка и дезинфекция" data-en="Wet cleaning and disinfection">Влажная очистка и дезинфекция</li>
+                            <li data-ru="Специализированная обработка проблемных зон" data-en="Specialized treatment of problem areas">Специализированная обработка проблемных зон</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <div class="step-time" data-ru="3 минуты" data-en="3 minutes">3 минуты</div>
+                        <h3 class="step-title" data-ru="Финишная обработка" data-en="Final Treatment">Финишная обработка</h3>
+                        <p class="step-description" data-ru="Полировка поверхностей, нанесение защитных составов, устранение и финальная проверка качества выполненных работ" data-en="Surface polishing, application of protective compounds, elimination and final quality check of completed work">Полировка поверхностей, нанесение защитных составов, устранение и финальная проверка качества выполненных работ</p>
+                        <ul class="step-features">
+                            <li data-ru="Полировка металлических поверхностей" data-en="Polishing of metal surfaces">Полировка металлических поверхностей</li>
+                            <li data-ru="Антистатическая обработка" data-en="Antistatic treatment">Антистатическая обработка</li>
+                            <li data-ru="Контроль отсутствия разводов" data-en="Control of absence of streaks">Контроль отсутствия разводов</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">05</div>
+                    <div class="step-content">
+                        <div class="step-time" data-ru="2 минуты" data-en="2 minutes">2 минуты</div>
+                        <h3 class="step-title" data-ru="Итоговый контроль и документооборот" data-en="Final Control and Documentation">Итоговый контроль и документооборот</h3>
+                        <p class="step-description" data-ru="Комплексная приемка результатов работы, составление акта выполненных работ, который подписывается и передается заказчику" data-en="Comprehensive acceptance of work results, compilation of work completion certificate which is signed and transferred to the client">Комплексная приемка результатов работы, составление акта выполненных работ, который подписывается и передается заказчику</p>
+                        <ul class="step-features">
+                            <li data-ru="Проверка по 47-пунктному чек-листу" data-en="Check by 47-point checklist">Проверка по 47-пунктному чек-листу</li>
+                            <li data-ru="Фотоотчет о завершенных работах" data-en="Photo report of completed work">Фотоотчет о завершенных работах</li>
+                            <li data-ru="Подпись акта выполненных работ" data-en="Signing of work completion certificate">Подпись акта выполненных работ</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact-form">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-ru="Получить предложение" data-en="Get Quote">Получить предложение</h2>
+                <p class="section-subtitle" data-ru="Заполните форму, и мы свяжемся с вами в ближайшее время" data-en="Fill out the form and we'll contact you shortly">Заполните форму, и мы свяжемся с вами в ближайшее время</p>
+            </div>
+            <form class="contact-form-container" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name" data-ru="Имя представителя *" data-en="Representative Name *">Имя представителя *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company" data-ru="Название компании *" data-en="Company Name *">Название компании *</label>
+                        <input type="text" id="company" name="company" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email" data-ru="Email *" data-en="Email *">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" data-ru="Телефон *" data-en="Phone *">Телефон *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="aircraft-type" data-ru="Тип воздушного судна" data-en="Aircraft Type">Тип воздушного судна</label>
+                        <select id="aircraft-type" name="aircraft-type">
+                            <option value="" data-ru="Выберите тип" data-en="Select type">Выберите тип</option>
+                            <option value="narrow-body" data-ru="Узкофюзеляжный" data-en="Narrow-body">Узкофюзеляжный</option>
+                            <option value="wide-body" data-ru="Широкофюзеляжный" data-en="Wide-body">Широкофюзеляжный</option>
+                            <option value="private-jet" data-ru="Частный джет" data-en="Private Jet">Частный джет</option>
+                            <option value="cargo" data-ru="Грузовой" data-en="Cargo">Грузовой</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="frequency" data-ru="Регулярность обслуживания" data-en="Service Frequency">Регулярность обслуживания</label>
+                        <select id="frequency" name="frequency">
+                            <option value="" data-ru="Выберите частоту" data-en="Select frequency">Выберите частоту</option>
+                            <option value="one-time" data-ru="Разовая" data-en="One-time">Разовая</option>
+                            <option value="weekly" data-ru="Еженедельно" data-en="Weekly">Еженедельно</option>
+                            <option value="monthly" data-ru="Ежемесячно" data-en="Monthly">Ежемесячно</option>
+                            <option value="regular" data-ru="По расписанию рейсов" data-en="Per flight schedule">По расписанию рейсов</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="preferred-time" data-ru="Предпочтительное время обслуживания" data-en="Preferred Service Time">Предпочтительное время обслуживания</label>
+                    <input type="text" id="preferred-time" name="preferred-time" placeholder="например: 22:00-06:00">
+                </div>
+                <div class="form-group">
+                    <label for="requirements" data-ru="Дополнительные требования" data-en="Additional Requirements">Дополнительные требования</label>
+                    <textarea id="requirements" name="requirements" rows="4"></textarea>
+                </div>
+                <div class="form-group checkbox-group">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="consent" name="consent" required>
+                        <span class="checkmark"></span>
+                        <span data-ru="Согласен на обработку персональных данных *" data-en="I agree to personal data processing *">Согласен на обработку персональных данных *</span>
+                    </label>
+                </div>
+                <button type="submit" class="submit-button" data-ru="Отправить заявку" data-en="Send Request">Отправить заявку</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="./logo.svg" alt="Clean Wings" class="footer-logo-img">
+                    </div>
+                    <p class="footer-description" data-ru="Профессиональный клининг салонов самолетов в Ташкенте с соблюдением международных авиационных стандартов." data-en="Professional aircraft cabin cleaning in Tashkent in compliance with international aviation standards.">Профессиональный клининг салонов самолетов в Ташкенте с соблюдением международных авиационных стандартов.</p>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title" data-ru="Быстрые ссылки" data-en="Quick Links">Быстрые ссылки</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about" data-ru="О нас" data-en="About">О нас</a></li>
+                        <li><a href="#services" data-ru="Услуги" data-en="Services">Услуги</a></li>
+                        <li><a href="#advantages" data-ru="Преимущества" data-en="Advantages">Преимущества</a></li>
+                        <li><a href="#contact" data-ru="Контакты" data-en="Contact">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title" data-ru="Контакты" data-en="Contact Info">Контакты</h3>
+                    <div class="footer-contact">
+                        <p>📍 <span data-ru="Ташкент, Узбекистан" data-en="Tashkent, Uzbekistan">Ташкент, Узбекистан</span></p>
+                        <p>📞 +998 (XX) XXX-XX-XX</p>
+                        <p>✉️ info@cleanwings.uz</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <div class="language-switcher-footer">
+                        <button class="lang-btn-footer active" data-lang="ru">RU</button>
+                        <button class="lang-btn-footer" data-lang="en">EN</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Clean Wings. <span data-ru="Все права защищены." data-en="All rights reserved.">Все права защищены.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/language-switcher.js"></script>
+</body>
+</html>

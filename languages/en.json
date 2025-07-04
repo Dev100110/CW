@@ -1,0 +1,163 @@
+{
+  "site_title": "Clean Wings - Professional Aircraft Cabin Cleaning in Tashkent",
+  "site_description": "Professional aircraft cabin cleaning services in Tashkent. Aviation standards compliance, fast 24/7 service. Serving airlines and private jets.",
+  
+  "nav": {
+    "about": "About",
+    "services": "Services",
+    "advantages": "Advantages", 
+    "contact": "Contact"
+  },
+  
+  "hero": {
+    "title": "World-Class Professional Aircraft Cabin Cleaning",
+    "subtitle": "Clean Wings provides high-quality aircraft cabin cleaning services in Tashkent, meeting international aviation standards",
+    "cta": "Get Quote"
+  },
+  
+  "about": {
+    "title": "About Clean Wings",
+    "subtitle": "A fresh approach to professional aviation cleaning",
+    "text1": "Clean Wings is a new specialized company for professional aircraft cabin cleaning in Tashkent. We apply modern cleaning methods and use professional equipment to ensure the highest standards of cleanliness.",
+    "text2": "Our specialization is high-quality and fast cleaning of passenger cabins, cockpits, and aircraft service areas in compliance with all international aviation industry requirements."
+  },
+  
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete range of cleaning services for aircraft",
+    "deep_cleaning": {
+      "title": "Deep Cabin Cleaning",
+      "description": "Complete treatment of passenger seats, panels, windows and all cabin surfaces"
+    },
+    "sanitization": {
+      "title": "Sanitization & Disinfection",
+      "description": "Using aviation cleanliness standards and passenger safety protocols"
+    },
+    "cockpit_cleaning": {
+      "title": "Cockpit Cleaning",
+      "description": "Delicate treatment of instrument panels and sensitive equipment"
+    },
+    "lavatory_galley": {
+      "title": "Lavatory & Galley Cleaning",
+      "description": "Special cleaning of service areas with enhanced hygiene requirements"
+    },
+    "cargo_cleaning": {
+      "title": "Cargo Hold Cleaning",
+      "description": "Professional cleaning of cargo and baggage compartments when needed"
+    },
+    "express_service": {
+      "title": "Express Service",
+      "description": "Quick cleaning between flights to minimize aircraft downtime"
+    }
+  },
+  
+  "advantages": {
+    "title": "Our Advantages",
+    "subtitle": "Why Clean Wings is chosen for aircraft maintenance",
+    "aviation_standards": {
+      "title": "Aviation Standards",
+      "description": "Knowledge and compliance with international aviation industry requirements"
+    },
+    "speed": {
+      "title": "Speed of Execution",
+      "description": "Minimizing aircraft downtime through streamlined processes"
+    },
+    "equipment": {
+      "title": "Professional Equipment",
+      "description": "Specialized tools and equipment for aviation cleaning"
+    },
+    "team": {
+      "title": "Experienced Team",
+      "description": "Trained personnel with understanding of aviation industry specifics"
+    },
+    "schedule": {
+      "title": "Flexible Schedule",
+      "description": "24/7 operation adapted to flight schedules"
+    },
+    "pricing": {
+      "title": "Competitive Prices",
+      "description": "Favorable terms for new clients and long-term cooperation"
+    }
+  },
+  
+  "process": {
+    "title": "Work Process",
+    "subtitle": "Step-by-step approach to quality service",
+    "step1": {
+      "title": "Assessment & Planning",
+      "description": "Aircraft inspection, detailed work plan preparation"
+    },
+    "step2": {
+      "title": "Preparation",
+      "description": "Installation of protective materials, special equipment preparation"
+    },
+    "step3": {
+      "title": "Main Cleaning",
+      "description": "Execution of all necessary cleaning work according to plan"
+    },
+    "step4": {
+      "title": "Quality Control",
+      "description": "Final inspection of all treated surfaces and areas"
+    },
+    "step5": {
+      "title": "Handover",
+      "description": "Clean aircraft handover to client with report"
+    }
+  },
+  
+  "contact_form": {
+    "title": "Get Quote",
+    "subtitle": "Fill out the form and we'll contact you shortly",
+    "name": "Representative Name *",
+    "company": "Company Name *", 
+    "email": "Email *",
+    "phone": "Phone *",
+    "aircraft_type": "Aircraft Type",
+    "frequency": "Service Frequency",
+    "preferred_time": "Preferred Service Time",
+    "requirements": "Additional Requirements",
+    "consent": "I agree to personal data processing *",
+    "submit": "Send Request",
+    "aircraft_types": {
+      "select": "Select type",
+      "narrow_body": "Narrow-body",
+      "wide_body": "Wide-body",
+      "private_jet": "Private Jet",
+      "cargo": "Cargo"
+    },
+    "frequencies": {
+      "select": "Select frequency",
+      "one_time": "One-time",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "regular": "Per flight schedule"
+    }
+  },
+  
+  "contacts": {
+    "title": "Contacts",
+    "subtitle": "Contact us in a convenient way",
+    "address": "Address",
+    "address_value": "Tashkent, Uzbekistan",
+    "phone": "Phone",
+    "email": "Email",
+    "working_hours": "Working Hours",
+    "working_hours_value": "24/7 per flight schedule"
+  },
+  
+  "footer": {
+    "description": "Professional aircraft cabin cleaning in Tashkent in compliance with international aviation standards.",
+    "quick_links": "Quick Links",
+    "contact_info": "Contact Info",
+    "copyright": "All rights reserved."
+  },
+  
+  "messages": {
+    "required_field": "This field is required",
+    "invalid_email": "Please enter a valid email address",
+    "invalid_phone": "Please enter a valid phone number",
+    "form_success": "Request sent successfully! We will contact you shortly.",
+    "form_error": "An error occurred while sending. Please try again.",
+    "sending": "Sending..."
+  }
+}
